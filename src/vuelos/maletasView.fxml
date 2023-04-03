@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="513.0" style="-fx-background-color: #A3E4D7;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vuelos.MaletasController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="89.0" prefWidth="493.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="79.0" fitWidth="492.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/Aereopuerto.gif" />
+               </image>
+            </ImageView>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="211.0" prefWidth="513.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vuelo A">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font></Text>
+                  <TextArea fx:id="txtA" prefHeight="150.0" prefWidth="150.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vuelo B">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font></Text>
+                  <TextArea fx:id="txtB" prefHeight="150.0" prefWidth="150.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="150.0" prefWidth="150.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vuelo C">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font></Text>
+                  <TextArea fx:id="txtC" prefHeight="150.0" prefWidth="150.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+               </children>
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </HBox.margin>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="198.0" prefWidth="493.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="185.0" prefWidth="489.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Banda Transportadora">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" top="10.0" />
+                     </VBox.margin></Text>
+                  <TextArea fx:id="txtBTransportadora" prefHeight="147.0" prefWidth="489.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="120.0" prefWidth="493.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="87.0" prefWidth="492.0" spacing="5.0">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Entrega">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font></Text>
+                  <TextArea fx:id="txtEntrega" prefHeight="200.0" prefWidth="200.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Etapa">
+                     <font>
+                        <Font name="Open Sans Semibold" size="12.0" />
+                     </font></Text>
+                  <TextArea fx:id="txtEtapa" prefHeight="200.0" prefWidth="200.0">
+                     <effect>
+                        <DropShadow color="#117864" />
+                     </effect></TextArea>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ImageView fx:id="img1" fitHeight="141.0" fitWidth="325.0" layoutX="100.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resource/bajando.gif" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img2" fitHeight="141.0" fitWidth="325.0" layoutX="100.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resource/pasando%20maletasbanda.gif" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="img3" fitHeight="141.0" fitWidth="325.0" layoutX="100.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+               <image>
+                  <Image url="@../resource/recogiendo.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <HBox alignment="CENTER_RIGHT" prefHeight="69.0" prefWidth="388.0" spacing="10.0">
+         <children>
+            <Button fx:id="btnDescargar" mnemonicParsing="false" onAction="#OnbtnDescargar" text="Descargar">
+               <font>
+                  <Font name="Open Sans Semibold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnPasarALaBanda" disable="true" mnemonicParsing="false" onAction="#OnbtnPasarALaBanda" text="Pasar a la banda">
+               <font>
+                  <Font name="Open Sans Semibold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnEntregar" disable="true" mnemonicParsing="false" onAction="#OnbtnEntregar" text="Entregar">
+               <font>
+                  <Font name="Open Sans Semibold" size="12.0" />
+               </font></Button>
+            <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#OnbtnSalir" text="Salir">
+               <font>
+                  <Font name="Open Sans Semibold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>
